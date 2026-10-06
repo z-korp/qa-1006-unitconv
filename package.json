@@ -4,5 +4,8 @@
   "private": true,
   "type": "module",
   "description": "A tiny command-line unit converter",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "test": "node --test"
+  }
 }
