@@ -1,0 +1,10 @@
+{
+  "name": "round 2: volume and the unit list",
+  "run": "node .launchpad/checks/round-2/run.mjs",
+  "timeoutSeconds": 180,
+  "tests": [
+    "converts volumes",
+    "refuses volume to another dimension",
+    "lists every unit with --list"
+  ]
+}
