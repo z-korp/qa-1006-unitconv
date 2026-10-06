@@ -1,0 +1,18 @@
+{
+  "name": "round 1: the converter",
+  "run": "node .launchpad/checks/round-1/run.mjs",
+  "timeoutSeconds": 180,
+  "tests": [
+    "converts lengths",
+    "converts masses",
+    "converts temperatures",
+    "accepts negative and decimal values",
+    "rounds to at most 4 decimals, without trailing zeros or -0",
+    "prints a usage with --help",
+    "refuses the wrong number of arguments",
+    "refuses a value that is not a finite number",
+    "refuses an unknown unit",
+    "refuses units of different dimensions",
+    "refuses a temperature below absolute zero"
+  ]
+}
