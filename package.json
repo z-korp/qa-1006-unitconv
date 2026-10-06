@@ -1,0 +1,8 @@
+{
+  "name": "unitconv",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A tiny command-line unit converter",
+  "license": "MIT"
+}
